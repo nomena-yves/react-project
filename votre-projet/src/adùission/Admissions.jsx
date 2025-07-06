@@ -13,10 +13,10 @@ function Admission() {
         <br />
         <br />
         <div className="flex row-auto justify-center">
-            <div className="bg-orange-100 w-80">
-                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white text-center">01</h1>
+            <div className="bg-orange-100 w-80 p-10">
+                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">01</h1>
                 <div>
-                    <p>Dépôt de dossiers : pour les
+                    <p className="text-blue-950" >  Dépôt de dossiers : pour les
                         bacheliers de toutes séries sans
                         limite d’âge
                     </p>
@@ -24,10 +24,10 @@ function Admission() {
                 </div>
                 <br />
             </div>
-            <div className="bg-orange-300 w-80">
-                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white text-center">01</h1>
+            <div className="bg-orange-200 w-80 p-10">
+                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white ">02</h1>
                 <div>
-                    <p>Dépôt de dossiers : pour les
+                    <p className="text-blue-950">Dépôt de dossiers : pour les
                         bacheliers de toutes séries sans
                         limite d’âge
                     </p>
@@ -35,10 +35,10 @@ function Admission() {
                 </div>
                 <br />
             </div>
-            <div className="bg-orange-700 w-80">
-                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white text-center">01</h1>
+            <div className="bg-orange-300 w-80 p-10">
+                <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white ">03</h1>
                 <div>
-                    <p>Dépôt de dossiers : pour les
+                    <p className="text-blue-950">Dépôt de dossiers : pour les
                         bacheliers de toutes séries sans
                         limite d’âge
                     </p>
@@ -49,10 +49,12 @@ function Admission() {
         </div>
         <br />
         <br />
-        <div className="flex row-auto justify-around w-80 m-auto ">
-            <button className="border-white p-3">Inscrivez-vous ici</button>
-            <button className="p-3 bg-blue-950 text-white">Resultat concours</button>
+        <div className="flex row-auto justify-around w-120 m-auto ">
+            <button className="border-2 border-white p-3 text-white w-50 hover:bg-blue-950 hover:border-none">Inscrivez-vous ici</button>
+            <button className="p-3 bg-blue-950 text-white w-50">Resultat concours</button>
         </div>
+        <br />
+        <br />
     </div>
 }
 

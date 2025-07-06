@@ -4,6 +4,11 @@ import PartieAccueil from "./partie-accueil/PartieAccueil"
 import Deboucher from "./deboucher/deboucher"
 import Domaines from "./Domaine-hei/Domaines"
 import Admission from "./adùission/Admissions"
+import Programme from "./Programmes/Programme"
+import SystemeEduc from "./Systeme/SystemeEduc"
+import Technologie from "./technologie/Technologie"
+import Partenaires from "./partenaire/Partenaires"
+import Apropos from "./apropos/Apropos"
 
 function App() {
 
@@ -25,6 +30,11 @@ return <> <div className="w-full ">
  <Deboucher></Deboucher>
  <Domaines></Domaines>
  <Admission></Admission>
+ <Programme></Programme>
+ <SystemeEduc></SystemeEduc>
+ <Technologie></Technologie>
+ <Partenaires></Partenaires>
+ <Apropos></Apropos>
  </>
 
 }
