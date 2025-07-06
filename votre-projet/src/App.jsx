@@ -1,6 +1,9 @@
 import Acceuil from "./accueil/Accueil"   
 import SousAccueil from "./sous-accueil/sousAccueil"
 import PartieAccueil from "./partie-accueil/PartieAccueil"
+import Deboucher from "./deboucher/deboucher"
+import Domaines from "./Domaine-hei/Domaines"
+import Admission from "./adùission/Admissions"
 
 function App() {
 
@@ -19,7 +22,11 @@ return <> <div className="w-full ">
  <Acceuil></Acceuil>
  <SousAccueil></SousAccueil>
  <PartieAccueil></PartieAccueil>
+ <Deboucher></Deboucher>
+ <Domaines></Domaines>
+ <Admission></Admission>
  </>
+
 }
 
 export default App
