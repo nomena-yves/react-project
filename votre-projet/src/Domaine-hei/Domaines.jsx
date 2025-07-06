@@ -23,10 +23,10 @@ function Domaines() {
                 </p>
             </div>
             <div className=" w-80 rounded-xl bg-white">
-                <img className="size-50 mx-auto" src="/image/Cloud-et-cybersecurite.png" alt="" />
+                <img className="size-50 mx-auto" src="/image/cerveau.png" alt="" />
                 <br />
                 <p className=" text-center font-bold text-amber-400">
-                    Cloud et cybersécurité
+                Intelligence artificielle
                 </p>
                 <br />
                 <p className="text-center m-4">
@@ -36,10 +36,10 @@ function Domaines() {
                 </p>
             </div>
             <div className=" w-80 rounded-xl bg-white">
-                <img className="size-50 mx-auto" src="/image/Cloud-et-cybersecurite.png" alt="" />
+                <img className="size-50 mx-auto" src="/image/logicielle.png" alt="" />
                 <br />
                 <p className="text-center font-bold  text-amber-400">
-                    Cloud et cybersécurité
+                Ingénierie logicielle
                 </p>
                 <br />
                 <p className="text-center m-4">

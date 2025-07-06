@@ -19,7 +19,7 @@ return <> <div className="w-full ">
  <br />
  <br />
  <br />
-  <div className="border border-green-700 flex gap-4 my-auto"><a href="" className="text-white w-34 text-center p-2 font-bold">Acceuil</a><a href="" 
+  <div className="flex gap-4 my-auto"><a href="" className="text-white w-34 text-center p-2 font-bold">Acceuil</a><a href="" 
    className="text-white w-34 text-center p-2 font-bold">Actualité</a><a href=""  className="text-white w-34 text-center p-2 font-bold">Bourse d'Etude</a><a href="" 
     className="text-white w-34 text-center p-2 font-bold">Inscription</a><a href=""  className="text-white bg-amber-400 w-34 text-center p-2 font-bold">Intrinet</a></div>
  </nav>
